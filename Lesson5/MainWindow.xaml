@@ -1,0 +1,16 @@
+﻿<Window x:Name="Form" x:Class="Lesson5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson5"
+        mc:Ignorable="d"
+        Title="Тестовое задание" Height="527" Width="434" WindowStartupLocation="CenterScreen" Loaded="MainWindow1_Loaded">
+    <Grid>
+        <ListBox x:Name="UsersList" HorizontalAlignment="Left" Height="336" Width="220" Margin="27,20,0,0" VerticalAlignment="Top" BorderBrush="Black"/>
+        <Button x:Name="PreviousButton" Content="&lt;&lt; Назад" HorizontalAlignment="Left" Height="41" Width="101" Margin="28,375,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Source Sans Pro" BorderBrush="Black" Click="PreviousButton_Click" />
+        <Button x:Name="NextButton" Content="Далее &gt;&gt;" HorizontalAlignment="Left" Height="41" Width="101" Margin="145,375,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Source Sans Pro" BorderBrush="Black" Click="NextButton_Click" />
+        <Label Content="Статус: " HorizontalAlignment="Left" Height="27" Margin="263,19,0,0" VerticalAlignment="Top" Width="47" FontFamily="Source Sans Pro" Padding="5,5,0,5"/>
+        <Label x:Name="StatusLabel" Content="&quot;Выполнено&quot;" HorizontalAlignment="Left" Height="27" Margin="307,19,0,0" VerticalAlignment="Top" Width="82" FontFamily="Source Sans Pro" Padding="0,5,5,5"/>
+    </Grid>
+</Window>

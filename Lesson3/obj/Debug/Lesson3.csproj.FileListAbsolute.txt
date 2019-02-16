@@ -1,0 +1,6 @@
+C:\Dev\GoodLine-Tasks\Lesson3\bin\Debug\Lesson3.exe.config
+C:\Dev\GoodLine-Tasks\Lesson3\bin\Debug\Lesson3.exe
+C:\Dev\GoodLine-Tasks\Lesson3\bin\Debug\Lesson3.pdb
+C:\Dev\GoodLine-Tasks\Lesson3\obj\Debug\Lesson3.csproj.CoreCompileInputs.cache
+C:\Dev\GoodLine-Tasks\Lesson3\obj\Debug\Lesson3.exe
+C:\Dev\GoodLine-Tasks\Lesson3\obj\Debug\Lesson3.pdb
